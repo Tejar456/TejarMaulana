@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'costum';
+  src: url('~/assets/fonts/Kosans.ttf') format('ttf'),
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'costum', sans-serif;
+}
